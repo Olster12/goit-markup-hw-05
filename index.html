@@ -56,12 +56,15 @@
             <div class="container">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                 <button data-modal-open type="button" class="button button-primery">Замовити послугу</button>
-                <div class="modal">
-                    <div>
-
+                <div data-modal class="backdrop is-hidden">
+                    <div  class="modal">
+                        <button data-modal-close type="button" class="button-modal">
+                            <svg width="11" height="11">
+                                <use href="./images/sprit.svg#close-icon"></use>
+                            </svg>
+                        </button>
                     </div>
                 </div>
-                <button data-modal-close>Закрити</button>
             </div>
         </section>
 
